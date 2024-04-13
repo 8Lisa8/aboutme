@@ -1,0 +1,82 @@
+html {
+    background-color: rgba(241, 229, 229, 0.68);
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(139, 123, 139, 0.79);
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+}
+
+.link {
+    color: #042369;
+    transition: color .2s;
+}
+
+.link:hover {
+    color: rgba(61, 56, 61, 0.88);
+}
+
+.header__link {
+    margin: 20px;
+}
+
+.subtitle {
+    font-family: "Abril Fatface", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.title {
+    font-family: "Abril Fatface", serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #042369;
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    width:  1400px;
+    display: flex;
+    flex-grow: 1;
+    padding-top: 20px;
+}
+
+.main-section {
+    flex-grow: 1;
+    padding-left: 50px;
+}
+
+
+img {
+    border: 5px solid #000000;
+    margin: 0;
+}
+.foto {
+    padding: 10px;
+}
+
+footer {
+    border-top: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.about-icon {
+    border: none;
+    padding: 0 10px;
+}
